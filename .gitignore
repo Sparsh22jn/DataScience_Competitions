@@ -1,0 +1,27 @@
+# Data — never commit raw datasets (re-downloadable via Kaggle API)
+competitions/*/data/
+competitions/*/*.csv
+competitions/*/submissions/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+
+# Kaggle credentials — NEVER commit this
+kaggle.json
+.kaggle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/settings.json
