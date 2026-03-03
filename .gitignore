@@ -17,6 +17,7 @@ venv/
 
 # Kaggle credentials — NEVER commit this
 kaggle.json
+kaggle_api.txt
 .kaggle/
 
 # OS
